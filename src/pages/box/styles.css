@@ -1,0 +1,49 @@
+#box-container{
+    max-width: 980px;
+    margin: 58px auto 0;
+}
+
+#box-container .upload{
+    background: #eeeeee;
+    margin:25px 0 25px 0;
+    height: 80px;
+    color: #888;
+    border: 2px dashed #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-container header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-container header h1{
+    font-size: 21px;
+    padding-left: 11px;
+    margin-left: 15px;
+    border-left: 1px solid #dddddd;
+}
+
+#box-container ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+#box-container ul li a {
+    font-size: 14px;
+    color: #222;
+    text-decoration: none;
+    float:left;
+}
+
+#box-container ul li span {
+    font-size: 11px;
+    color: #bbbbbb;
+}
